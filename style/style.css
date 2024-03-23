@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body.home {
+    background-image: url('../img/bg/bg.png');
+    background-repeat: no-repeat;
+}
