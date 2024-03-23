@@ -1,9 +1,105 @@
 * {
     margin: 0;
     padding: 0;
+    color: #fff;
+    box-sizing: border-box; /* Deixar o layout mais responsivo */
 }
 
-body.home {
+body.home { /*BACKGROUND PAGINA HOME*/
     background-image: url('../img/bg/bg.png');
-    background-repeat: no-repeat;
+    background-position: center; /* Centraliza a imagem no centro da tela*/
+    background-repeat: no-repeat; /* Imagem nao se repete */
+    background-attachment: fixed; /* Imagem fixa */
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a área do fundo ==*/
+    width: 100vw; /* Tamanho da tela maximo (horizontal) */
+
+}
+
+header {
+    width: 100vw;
+    display: flex;
+    background-color: #0D0D0D;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none; /* Link nn ficar marcado após ser clicado*/
+}
+
+ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-around; /* Elementos a msm distancia entre si e da borda */
+    align-items: center;
+    list-style-type: none; /* Deixar o elemento escrito sem nenhum tipo de marcação */
+    font-family: "Montserrat", sans-serif;
+}
+
+.carrinho {
+    height: 30px;
+}
+
+.bem-vindo {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    flex-direction: column;
+}
+
+.bem-vindo-texto {
+    width: auto;
+    height: auto;
+    font-size: 150px;
+    font-family: "Truculenta", sans-serif;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.bem-vindo-hr {
+    width: 30%;
+    height: 3.5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.btn-home {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-tipos {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 30px;
+    color: #0D0D0D;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn-sobre {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 30px;
+    color: #0D0D0D;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
 }
