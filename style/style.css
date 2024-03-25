@@ -190,10 +190,10 @@ strong {
 
 
 .btn-sobre:hover {  /* Quando passar o mouse por cima */
-    transition: 600ms;
     color: #ffffff;
     background-color: #860000;
     transform: scale(1.1);
+    transition: 600ms;
 }
 
 
@@ -252,6 +252,11 @@ main.pag-login {
     height: 66px;
 }
 
+.voltar:hover {
+    animation: 1400ms;
+    transform: scale(1.1);
+}
+
 .meio-login {
     display: flex;
     flex-direction: column;
@@ -305,6 +310,14 @@ input {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
+
+.btn-enviar-login:hover {
+    color: #860000f6;
+    background-color: #fff;
+    transform: scale(1.1);
+    transition: 600ms;
+}
+
 
 
 
@@ -430,3 +443,4 @@ body.erro { /*BACKGROUND PAGINA ERRO*/
 .text-erro {
     font-size: 100px;
 }
+
