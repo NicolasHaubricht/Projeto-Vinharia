@@ -110,8 +110,8 @@ ul.pag {
 }
 
 strong {
-    color: #860000f6;
-    background-color: #ffffff;
+    background-color: #860000f6;
+    color: #ffffff;
     padding-inline-end: 5px;
     padding-inline-start: 5px;
     border-radius: 10px;
@@ -275,6 +275,8 @@ main.pag-login {
 
 label {
     font-size: 11px;
+    color: #0D0D0D;
+    font-family: "Montserrat", sans-serif;
 }
 
 input {
@@ -302,7 +304,6 @@ input {
     border: none;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
-
 }
 
 
@@ -362,4 +363,70 @@ body.contato { /*BACKGROUND PAGINA CONTATO*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
+}
+
+.dados {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    height: 57vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dados-preencher {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-entrar-contato {
+    margin-top: 30px;
+    width: 300px;
+    padding: 20px;
+    background-color: #860000f6;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.btn-entrar-contato:hover{
+    background-color: #fff;
+    color: #860000;
+    transform: scale(1.01);
+    transition: 600ms;
+}
+
+
+/*PAGINA ERRO*/
+
+body.erro { /*BACKGROUND PAGINA ERRO*/
+    background-image: url('../img/bg/bg-404.png');
+    background-position: center; /* Centraliza a imagem no centro da tela*/
+    background-repeat: no-repeat; /* Imagem nao se repete */
+    background-attachment: fixed; /* Imagem fixa */
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a área do fundo */
+    width: 100vw; /* Tamanho da tela maximo (horizontal) */
+    height: 100vh; /* Tamanho da tela maximo (vertical) */
+    font-family: "Montserrat", sans-serif; /* Fonte */
+}
+
+.erro-1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-erro {
+    font-size: 100px;
 }
