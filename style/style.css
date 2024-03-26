@@ -483,3 +483,62 @@ body.sobre { /*BACKGROUND PAGINA LOGIN*/
 .p-empresa {
     font-size: 17px;
 }
+
+/* PAGINA TIPO DE VINHOS */
+
+body.tipos-vinho { /*BACKGROUND PAGINA LOGIN*/
+    background-image: url('../img/bg/bg-home.png');
+    background-position: center; /* Centraliza a imagem no centro da tela*/
+    background-repeat: no-repeat; /* Imagem nao se repete */
+    background-attachment: fixed; /* Imagem fixa */
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a área do fundo */
+    width: 100vw; /* Tamanho da tela maximo (horizontal) */
+    height: 100vh;  /* Tamanho da tela maximo (vertical) */
+    font-family: "Montserrat", sans-serif; /* Fonte */
+}
+
+.carrossel {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-self: center;
+}
+
+.text-tipo {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.centralizar-itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-carrossel {
+    display: flex;
+    width: 30%;
+    height: 70%;
+    justify-content: center;
+    align-self: center;
+}
+
+.anterior {
+    background-color: #860000;
+    border: none;
+    width: 45px;
+    height: 45px;
+}
+
+.proximo {
+    background-color: #860000;
+    border: none;
+    width: 45px;
+    height: 45px;
+}
+
+#tamanho {
+    width: 500px;
+}
