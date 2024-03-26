@@ -355,7 +355,6 @@ body.produtos { /*BACKGROUND PAGINA PRODUTOS*/
 
 
 
-
 /* PAGINA CONTATO */
 
 body.contato { /*BACKGROUND PAGINA CONTATO*/
@@ -383,7 +382,7 @@ body.contato { /*BACKGROUND PAGINA CONTATO*/
     background-color: #ffffff;
     border-radius: 20px;
     padding: 30px;
-    height: 57vh;
+    height: 50vh;
     width: 50vw;
     display: flex;
     justify-content: center;
@@ -444,3 +443,43 @@ body.erro { /*BACKGROUND PAGINA ERRO*/
     font-size: 100px;
 }
 
+
+
+/* PAGINA SOBRE A EMPRESA */
+
+body.sobre { /*BACKGROUND PAGINA LOGIN*/
+    background-image: url('../img/bg/bg-home.png');
+    background-position: center; /* Centraliza a imagem no centro da tela*/
+    background-repeat: no-repeat; /* Imagem nao se repete */
+    background-attachment: fixed; /* Imagem fixa */
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a área do fundo */
+    width: 100vw; /* Tamanho da tela maximo (horizontal) */
+    height: 100vh;  /* Tamanho da tela maximo (vertical) */
+    font-family: "Montserrat", sans-serif; /* Fonte */
+}
+
+.main-sobre {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sobre {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.sobre-empresa {
+    font-size: 60px;
+}
+
+.p-empresa {
+    font-size: 17px;
+}
