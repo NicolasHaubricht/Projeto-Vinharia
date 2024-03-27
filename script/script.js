@@ -26,5 +26,4 @@ function mostrarImagemAnterior() {
 }
 
 btnProximo.addEventListener('click', mostrarProximaImagem);
-
 btnAnterior.addEventListener('click', mostrarImagemAnterior);

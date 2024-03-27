@@ -107,6 +107,7 @@ ul.pag {
 
 .carrinho:hover {
     transform: scale(1.1);
+    transition: 1s;
 }
 
 strong {
@@ -116,6 +117,8 @@ strong {
     padding-inline-start: 5px;
     border-radius: 10px;
 }
+
+
 
 .bem-vindo {
     width: 100%;
@@ -130,9 +133,9 @@ strong {
 .bem-vindo-texto {
     width: auto;
     height: auto;
-    font-size: 150px;
-    font-family: "Truculenta", sans-serif;
-    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    font-size: 120px;
+    font-family: "Cinzel Decorative", serif;
+    
 }
 
 .bem-vindo-hr {
@@ -242,9 +245,9 @@ main.pag-login {
 }
 
 .title-login {
-    font-family: "Truculenta", sans-serif;
+    font-family: "Cinzel Decorative", serif;
     color: #860000f6;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .voltar {
@@ -253,8 +256,8 @@ main.pag-login {
 }
 
 .voltar:hover {
-    animation: 1400ms;
-    transform: scale(1.1);
+    transition: 2s;
+    transform: scale(1.2);
 }
 
 .meio-login {
@@ -382,10 +385,10 @@ body.contato { /*BACKGROUND PAGINA CONTATO*/
     background-color: #ffffff;
     border-radius: 20px;
     padding: 30px;
-    height: 50vh;
-    width: 50vw;
+    height: 55vh;
+    width: 30vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
@@ -398,9 +401,14 @@ body.contato { /*BACKGROUND PAGINA CONTATO*/
     gap: 10px;
 }
 
+.fim-formulario {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .btn-entrar-contato {
-    margin-top: 30px;
-    width: 300px;
+    width: auto;
     padding: 20px;
     background-color: #860000f6;
     border-radius: 10px;
@@ -415,6 +423,7 @@ body.contato { /*BACKGROUND PAGINA CONTATO*/
     transform: scale(1.01);
     transition: 600ms;
 }
+
 
 
 /*PAGINA ERRO*/
@@ -484,6 +493,9 @@ body.sobre { /*BACKGROUND PAGINA LOGIN*/
     font-size: 17px;
 }
 
+
+
+
 /* PAGINA TIPO DE VINHOS */
 
 body.tipos-vinho { /*BACKGROUND PAGINA LOGIN*/
@@ -530,6 +542,7 @@ body.tipos-vinho { /*BACKGROUND PAGINA LOGIN*/
     border: none;
     width: 45px;
     height: 45px;
+    cursor: pointer;
 }
 
 .proximo {
@@ -537,8 +550,23 @@ body.tipos-vinho { /*BACKGROUND PAGINA LOGIN*/
     border: none;
     width: 45px;
     height: 45px;
+    cursor: pointer;
 }
 
 #tamanho {
     width: 500px;
+}
+
+.proximo:hover {
+    background-color: #fff;
+    color: #860000;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.anterior:hover {
+    background-color: #fff;
+    color: #860000;
+    transform: scale(1.5);
+    transition: 1s;
 }
