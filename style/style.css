@@ -19,12 +19,13 @@ body.home { /*BACKGROUND PAGINA HOME*/
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     display: flex;
     background-color: #0d0d0d91;
     height: 70px;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 a {
@@ -118,7 +119,15 @@ strong {
     border-radius: 10px;
 }
 
-
+.main-bem-vindo {
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    gap: 20px;
+}
 
 .bem-vindo {
     width: 100%;
@@ -126,7 +135,6 @@ strong {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 140px;
     flex-direction: column;
 }
 
@@ -348,12 +356,60 @@ body.produtos { /*BACKGROUND PAGINA PRODUTOS*/
     background-repeat: no-repeat; /* Imagem nao se repete */
     background-attachment: fixed; /* Imagem fixa */
     background-size: cover; /* Redimensiona a imagem para cobrir toda a área do fundo */
-    width: 100vw; /* Tamanho da tela maximo (horizontal) */
-    height: 100vh;  /* Tamanho da tela maximo (vertical) */
+    max-width: 100vw;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.produtos-venda {
-    color: #fff;
+.produtos-a-venda {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.card-produtos {
+    display: flex;
+    width: 60%;
+    height: auto;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    gap: 40px; /* Distancia entre elementos */
+}
+
+/* Cards de vinhos vendendo*/
+.produto-vendendo {
+    background-color: #1d1d1d;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: justify; /* Texto justificado */
+    gap: 30px;
+}
+
+.produto-vendendo:hover {
+    background-color: #860000f6;
+    transform: ease;
+    transition: 1s;
+}
+
+.text-escolha-vinho {
+    font-family: "Cinzel Decorative", serif;
+    font-size: 60px;
+    margin: 70px;
+
+}
+
+.img-card-vinho {
+    height: 200px;
 }
 
 
